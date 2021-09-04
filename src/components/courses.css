@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.courses {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://www.jaywelborn.com/media/media/2017/12/11/Interview-React-2.jpg");
+}
+.valut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+input {
+    padding: 5px 7px;
+    text-align: center;
+    border: 1px solid;
+    background: white;
+    opacity: 2;
+}
+
+.arrow {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.usd {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}  
